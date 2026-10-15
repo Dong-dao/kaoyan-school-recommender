@@ -1,0 +1,55 @@
+# ========== 依赖 ==========
+node_modules/
+**/node_modules/
+
+# ========== 构建产物 ==========
+dist/
+**/dist/
+build/
+*.tsbuildinfo
+
+# ========== 环境变量 & 密钥（严禁提交）==========
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ========== Django ==========
+db.sqlite3
+*.sqlite3
+*.db
+media/
+staticfiles/
+
+# ========== 编辑器 / 系统 ==========
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+$null
+
+# ========== 本地工具数据 ==========
+.codebuddy/
+
+# ========== 临时 / 调试文件 ==========
+build*.txt
+check_new.js
+check.html
+*.log
+npm-debug.log*
+
+# ========== 排除的杂物目录 ==========
+unpacked/
+jinbang-downloader/
+*.docx
